@@ -1,0 +1,25 @@
+[package]
+name = "simple"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+library = []
+
+[dependencies]
+cosmwasm-std = "1.1.0"
+schemars = "0.8.10"
+serde = { version = "1.0.145", features = ["derive"] }
+thiserror = "1.0.37"
+cw2 = "1.0.1"
+
+[dev-dependencies]
+cosmwasm-schema = "1.1.0"
+
+# Add this new section for examples
+[[example]]
+name = "schema"
+path = "examples/schema.rs" 

@@ -1,0 +1,47 @@
+# Build results
+/target
+/artifacts
+/schema
+
+# Cargo+Git helper file (https://github.com/rust-lang/cargo/blob/0.44.1/src/cargo/sources/git/utils.rs#L320-L327)
+.cargo-ok
+
+# Text file backups
+**/*.rs.bk
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Environment variables
+.env
+
+# Debug files
+*.log
+
+# Contract deployment artifacts
+*.wasm
+
+# Generated documentation
+/doc
+/docs
+
+# Rust profiling data
+/flamegraph.svg
+/perf.data
+/perf.data.old
+
+# Testing artifacts
+/coverage/
+
+# Node modules (if using JavaScript/TypeScript tools)
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo 
